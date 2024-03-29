@@ -104,8 +104,8 @@ void display() {
 	
 	cout << "\n\nNumber of comparasions: " << cmp_count << endl;
 	cout << "Number of daa movements: " << mov_count << endl;
-
  }
+int main ()
 
 
 
