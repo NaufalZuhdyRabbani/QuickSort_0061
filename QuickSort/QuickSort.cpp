@@ -110,7 +110,11 @@ int main()
 	char ch;
 
 	do {
-		input(); 
+		input();
+		q_short(0, n - 1);
+		display();
+		cout << "\n\nDo you want to continue ? (y/n):";
+		cin >> ch;
 	}
 }
 
