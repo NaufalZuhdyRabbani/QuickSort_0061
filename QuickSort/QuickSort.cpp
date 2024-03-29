@@ -71,7 +71,8 @@ void q_short(int low, int high)
 		cmp_count++;
 		if (i < j) // step 9
 		{
-			//swap the element
+			//swap the element at index i with the element at index j
+			swap(low, j);
 		}
 	}
 }
