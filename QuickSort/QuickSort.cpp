@@ -88,6 +88,14 @@ void q_short(int low, int high)
 	//recusive call to sort the right sub array
 
 	q_short(j + 1, high); // step 13
+
+
+}
+
+void display() {
+	cout << "\n--------------" << endl;
+	cout << "\Sorted Array" << endl;
+	cout << "\n--------------" << endl;
 }
 
 
