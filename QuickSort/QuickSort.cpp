@@ -81,6 +81,8 @@ void q_short(int low, int high)
 		//swap the pivot element with the element at index j
 		swap(low, j);
 	}
+
+	//recuresive call to sort the left sub array
 }
 
 
